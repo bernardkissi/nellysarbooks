@@ -52,16 +52,8 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [
-    '@nuxtjs/pwa',
-    // Doc: https://github.com/nuxt/content
-    '@nuxt/content',
-  ],
-  /*
-   ** Content module configuration
-   ** See https://content.nuxtjs.org/configuration
-   */
-  content: {},
+  modules: ['@nuxtjs/pwa'],
+ 
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
