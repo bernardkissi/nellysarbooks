@@ -1,3 +1,41 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+body {
+    @apply bg-gray-200;
+}
+
+
+.book-cover {
+
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  border:none;
+
+}
+
+.grass-cover {
+  background-image: url(../images/grass-bg.png);
+  background-size: cover;
+  background-position: center;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.desert-cover {
+  background-image: url(../images/desert-landscape.jpg);
+  background-size: cover;
+  background-position: center;
+  image-rendering: -webkit-optimize-contrast;
+  border-bottom: 1px solid #ecf2f7;
+  /*opacity: 0.9;*/
+  /*background-position:50% 50%;*/
+}
+
+
+.wave-bg-cover{
+  background-image: url(../images/wave-bg.svg);
+  background-size: cover;
+  /*background-position: center;*/
+}

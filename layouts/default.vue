@@ -63,9 +63,10 @@
                 <div>
                   <button
                     id="user-menu"
-                    class="px-3 py-2 inline-flex font-medium leading-5 transition duration-150 ease-in-out"
+                    class="focus:outline-none px-3 py-2 inline-flex font-medium leading-5 transition duration-150 ease-in-out"
                     aria-label="User menu"
                     aria-haspopup="true"
+                    @click="dropdown = !dropdown"
                   >
                     <span>Books</span>
                     <svg
@@ -82,7 +83,8 @@
                   </button>
                 </div>
                 <div
-                  class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg z-20"
+                  v-if="dropdown === true"
+                  class="origin-top-right transition duration-300 ease-in-out absolute right-0 mt-2 w-48 rounded-md shadow-lg z-20"
                 >
                   <div
                     class="py-1 rounded-lg bg-white shadow-xs"
@@ -90,8 +92,8 @@
                     aria-orientation="vertical"
                     aria-labelledby="user-menu"
                   >
-                    <a
-                      href="#"
+                    <nuxt-link
+                      to="/"
                       class="flex items-center justify-between block px-4 py-2 font-normal leading-5 border-b border-gray-300 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
                       role="menuitem"
                     >
@@ -102,7 +104,7 @@
                       >
                         New
                       </button>
-                    </a>
+                    </nuxt-link>
                     <a
                       href="#"
                       class="block px-4 py-2 leading-5 bg-gray-100 text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
@@ -112,20 +114,21 @@
                   </div>
                 </div>
               </div>
-              <a
-                href="#"
-                class="ml-4 px-3 py-2 font-medium leading-5 hover:text-gray-600"
-                >Stores</a
+              <button
+                class="focus:outline-none ml-4 px-3 py-2 font-medium leading-5 hover:text-gray-600"
+                @click="showPanel"
               >
+                Stores
+              </button>
               <a
-                href="#"
+                href="#author"
                 class="ml-4 px-3 py-2 font-medium leading-5 hover:text-gray-600"
                 >Author</a
               >
               <a
                 href="#"
                 class="ml-4 px-3 py-2 font-medium leading-5 hover:text-gray-600"
-                >Contact Me</a
+                >Contact Us</a
               >
             </div>
           </div>
@@ -172,6 +175,7 @@
       </div>
     </nav>
     <Nuxt />
+    <slideout-panel></slideout-panel>
   </div>
 </template>
 
@@ -179,6 +183,20 @@
 export default {
   data: () => ({
     open: false,
+    dropdown: false,
+    panelObject: null,
   }),
+
+  methods: {
+    showPanel() {
+      this.panelObject = this.$showPanel({
+        component: 'vue-panel',
+        openOn: 'top',
+      })
+    },
+    hidePanel() {
+      this.panelObject.hide()
+    },
+  },
 }
 </script>
