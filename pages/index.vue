@@ -141,7 +141,7 @@
               an NGO dedicated to improving lives through education and health.
             </p>
 
-            <p class="text-sm text-gray-600 py-5">
+            <p class="text-sm text-gray-700 py-5">
               You can support this project by purchasing a copy to provide
               education and health to a child in Ghana.
             </p>
@@ -186,7 +186,7 @@
       </section>
       <section
         id="author"
-        class="flex flex-col mx-auto h-auto p-10 wave-bg-cover transition ease-in duration-150"
+        class="flex flex-col mx-auto h-auto p-10 wave-bg-cover"
       >
         <div class="max-w-xl text-center">
           <img

@@ -63,14 +63,14 @@
                 <div>
                   <a
                     id="user-menu"
-                    class="focus:outline-none cursor-pointer px-3 py-2 inline-flex font-medium leading-5 transition duration-150 ease-in-out"
+                    class="focus:outline-none hover:text-gray-600 cursor-pointer px-3 py-2 inline-flex font-medium leading-5 transition duration-150 ease-in-out"
                     aria-label="User menu"
                     aria-haspopup="true"
                     @click="dropdown = !dropdown"
                   >
                     <span>Books</span>
                     <svg
-                      class="text-gray-400 mt-1 ml-2 h-5 w-5 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150"
+                      class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
