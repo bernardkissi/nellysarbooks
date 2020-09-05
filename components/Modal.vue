@@ -1,6 +1,8 @@
 <template>
-  <div class="max-w-full lg:max-w-4xl mx-auto">
-    <div class="flex flex-col justify-center px-6 lg:px-32 py-16 desert-cover">
+  <div
+    class="h-screen lg:h-full overflow-y-scroll max-w-full lg:max-w-4xl mx-auto"
+  >
+    <div class="flex flex-col justify-center px-6 lg:px-32 desert-cover">
       <h3 class="text-2xl pb-2 text-center">
         Garden City is available in all the follwoing book stores
       </h3>
@@ -14,7 +16,16 @@
           <span class="text-sm text-center"
             >Send email to <b>author@nellysarbooks.de</b></span
           >
-          <span class="text-sm text-center">Call on <b>+4915211606972</b></span>
+          <span class="text-sm text-center"
+            >Message author on instagram
+            <a
+              class="hover:text-blue-500 text-blue-700 font-bold"
+              href="https://instagram.com/nellysarpong37?r=nametag"
+              rel="noreferrer noopener"
+              target="_blank"
+              >Nelly Sarpong</a
+            >
+          </span>
         </div>
       </div>
       <div
@@ -99,7 +110,7 @@
         >
       </div>
       <div
-        class="flex items-center justify-between p-3 rounded-md bg-white border-b border-gray-300 my-1"
+        class="flex items-center justify-between p-3 mb-24 rounded-md bg-white border-b border-gray-300 my-1"
       >
         <div class="flex flex-col text-2xl capitalize">
           <span class="text-2xl capitalize text-gray-800 font-medium">
