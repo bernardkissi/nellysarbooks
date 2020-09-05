@@ -8,7 +8,7 @@
           <div>
             <img
               class="rounded shadow-2xl p-2 bg-white"
-              src="~/assets/images/book-cover.jpg"
+              src="~/assets/images/optimized/book-cover.jpg"
               alt="book-cover"
               height="900"
               width="900"
@@ -69,21 +69,21 @@
           <div class="flex items-center max-w-5xl mx-auto">
             <img
               class="-ml-32 hidden lg:block"
-              src="~/assets/images/butterfly-left.png"
+              src="~/assets/images/optimized/butterfly-left.png"
               alt=""
               height="290"
               width="290"
             />
             <img
               class="mx-auto mt-24 hidden lg:block"
-              src="~/assets/images/Oval.png"
+              src="~/assets/images/optimized/Oval.png"
               alt=""
               height="800"
               width="800"
             />
             <img
               class="-ml-32 hidden lg:block"
-              src="~/assets/images/butterfly-right.png"
+              src="~/assets/images/optimized/butterfly-right.png"
               alt=""
               height="290"
               width="290"
@@ -112,7 +112,7 @@
 
           <img
             class="absolute mt-8 pb-3"
-            src="~/assets/images/sun.png"
+            src="~/assets/images/optimized/sun.png"
             alt="sunshine"
             height="150"
             width="150"
@@ -125,7 +125,7 @@
         >
           <div class="">
             <img
-              src="~/assets/images/helping.png"
+              src="~/assets/images/optimized/helping.png"
               alt=""
               height="700"
               width="700"
@@ -190,7 +190,7 @@
       >
         <div class="max-w-xl text-center">
           <img
-            src="~/assets/images/author.jpg"
+            src="~/assets/images/optimized/author.jpg"
             class="mx-auto h-32 w-32 rounded-full border-solid border-white border-2 -mt-3"
           />
 

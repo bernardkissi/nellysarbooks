@@ -9,7 +9,7 @@ body {
 
 .book-cover {
 
-  background-image: url(../images/background.jpg);
+  background-image: url(../images/optimized/background.jpg);
   background-size: cover;
   background-position: center;
   border:none;
@@ -17,14 +17,14 @@ body {
 }
 
 .grass-cover {
-  background-image: url(../images/grass-bg.png);
+  background-image: url(../images/optimized/grass-bg.png);
   background-size: cover;
   background-position: center;
   image-rendering: -webkit-optimize-contrast;
 }
 
 .desert-cover {
-  background-image: url(../images/desert-landscape.jpg);
+  background-image: url(../images/optimized/desert-landscape.jpg);
   background-size: cover;
   background-position: center;
   image-rendering: -webkit-optimize-contrast;
