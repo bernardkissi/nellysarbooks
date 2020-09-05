@@ -23,6 +23,18 @@ export default {
         name: 'description',
         content: process.env.npm_package_description || '',
       },
+      { hid: 'site', name: 'twitter:site', content: 'Nellysarbooks' },
+      { hid: 'creator', name: 'twitter:creator', content: '@Bernardkissi' },
+      {
+        hid: 'title',
+        name: 'twitter:title',
+        content: 'Kids books hub with interesting stories',
+      },
+      {
+        name: 'keywords',
+        content:
+          'kids book, kids stories, story book for kids, kids books for climate change',
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },

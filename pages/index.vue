@@ -235,5 +235,15 @@ export default {
       this.panelObject.hide()
     },
   },
+  head: {
+    title: 'Nellysarbooks',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Kids books hub with interesting stories',
+      },
+    ],
+  },
 }
 </script>
