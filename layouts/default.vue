@@ -61,9 +61,9 @@
             <div class="flex">
               <div class="relative">
                 <div>
-                  <button
+                  <a
                     id="user-menu"
-                    class="focus:outline-none px-3 py-2 inline-flex font-medium leading-5 transition duration-150 ease-in-out"
+                    class="focus:outline-none cursor-pointer px-3 py-2 inline-flex font-medium leading-5 transition duration-150 ease-in-out"
                     aria-label="User menu"
                     aria-haspopup="true"
                     @click="dropdown = !dropdown"
@@ -80,7 +80,7 @@
                         clip-rule="evenodd"
                       />
                     </svg>
-                  </button>
+                  </a>
                 </div>
                 <div
                   v-if="dropdown === true"
@@ -114,12 +114,12 @@
                   </div>
                 </div>
               </div>
-              <button
-                class="focus:outline-none ml-4 px-3 py-2 font-medium leading-5 hover:text-gray-600"
+              <a
+                class="focus:outline-none cursor-pointer ml-4 px-3 py-2 font-medium leading-5 hover:text-gray-600"
                 @click="showPanel"
               >
                 Stores
-              </button>
+              </a>
               <a
                 href="#author"
                 class="ml-4 px-3 py-2 font-medium leading-5 hover:text-gray-600"

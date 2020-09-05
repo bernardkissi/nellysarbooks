@@ -44,7 +44,7 @@
                 Place Order
               </button> -->
               <button
-                class="z-10 p-3 lg:p-4 bg-blue-700 hover:bg-blue-500 rounded text-white text-xl font-bold uppercase shadow-xl"
+                class="z-10 p-3 lg:p-4 bg-blue-700 hover:bg-blue-500 rounded-md text-white text-xl font-bold uppercase shadow-xl"
                 @click="showPanel"
               >
                 Buy from book stores
