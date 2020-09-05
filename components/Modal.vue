@@ -118,6 +118,7 @@
           >
           <span class="text-sm"> Brunnenstraße 181, 10119 Berlin</span>
           <span class="text-sm"> +49 30 97894592</span>
+          <span class="text-sm"> Info@ocelot.de </span>
           <span class="text-sm"> Germany</span>
         </div>
         <a
