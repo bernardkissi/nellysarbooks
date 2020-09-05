@@ -236,7 +236,7 @@ export default {
     },
   },
   head: {
-    title: 'Nellysarbooks',
+    title: 'Nellysarbooks - Kids Books Hub',
     meta: [
       {
         hid: 'description',
