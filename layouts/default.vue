@@ -149,7 +149,7 @@
           <div>
             <a
               href="#"
-              class="block px-3 ml-4 py-2 rounded-md text-base font-medium text-gray-500 hover:text-gray-600 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+              class="block cursor-pointer px-3 ml-4 py-2 rounded-md text-base font-medium text-gray-500 hover:text-gray-600 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
               >Garden City Book
               <span class="text-sm py-1 px-2 bg-red-100 text-red-600"
                 >New</span
@@ -157,19 +157,19 @@
             >
           </div>
           <a
-            href="#"
-            class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-white hover:text-gray-500 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+            class="mt-1 cursor-pointer block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-white hover:text-gray-500 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+            @click="showPanel"
             >Stores</a
           >
           <a
-            href="#"
-            class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-white hover:text-gray-500 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
-            >Projects</a
+            href="#author"
+            class="mt-1 cursor-pointer block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-white hover:text-gray-500 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+            >Author</a
           >
           <a
             href="#"
-            class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-white hover:text-gray-500 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
-            >Calendar</a
+            class="mt-1 cursor-pointer block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-white hover:text-gray-500 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+            >Contact Us</a
           >
         </div>
       </div>

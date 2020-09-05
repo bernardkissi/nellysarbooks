@@ -70,21 +70,21 @@
             <img
               class="-ml-32 hidden lg:block"
               src="~/assets/images/optimized/butterfly-left.png"
-              alt=""
+              alt="butterfly-right"
               height="290"
               width="290"
             />
             <img
               class="mx-auto mt-24 hidden lg:block"
               src="~/assets/images/optimized/Oval.png"
-              alt=""
+              alt="oval shape"
               height="800"
               width="800"
             />
             <img
               class="-ml-32 hidden lg:block"
               src="~/assets/images/optimized/butterfly-right.png"
-              alt=""
+              alt="butterfly right"
               height="290"
               width="290"
             />
@@ -126,7 +126,7 @@
           <div class="">
             <img
               src="~/assets/images/optimized/helping.png"
-              alt=""
+              alt="hepacy project"
               height="700"
               width="700"
             />
@@ -191,6 +191,7 @@
         <div class="max-w-xl text-center">
           <img
             src="~/assets/images/optimized/author.jpg"
+            alt="author"
             class="mx-auto h-32 w-32 rounded-full border-solid border-white border-2 -mt-3"
           />
 
