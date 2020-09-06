@@ -123,11 +123,6 @@
               >
                 Stores
               </a>
-              <a
-                href="#author"
-                class="ml-4 px-3 py-2 cursor-pointer font-medium leading-5 hover:text-gray-600"
-                >Author</a
-              >
               <nuxt-link
                 to="contact"
                 class="ml-4 px-3 py-2 cursor-pointer font-medium leading-5 hover:text-gray-600"
