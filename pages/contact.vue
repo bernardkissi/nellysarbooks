@@ -50,7 +50,7 @@
       <div
         class="mb-2 flex items-center justify-between w-full lg:w-1/2 mx-auto bg-gray-100 p-5"
       >
-        <div class="text-xl font-medium">LINKEDLN</div>
+        <div class="text-xl font-medium">LINKEDIN</div>
         <a
           class="p-3 bg-green-500 cursor-pointer text-white uppercase text-sm font-bold rounded-md"
           href="https://www.linkedin.com/in/nelly-sarpong-708232109/"
