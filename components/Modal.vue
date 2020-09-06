@@ -3,6 +3,12 @@
     class="h-screen lg:h-full overflow-y-scroll max-w-full lg:max-w-4xl mx-auto"
   >
     <div class="flex flex-col justify-center px-6 lg:px-32 desert-cover">
+      <button
+        class="flex cursor-pointer focus:outline-none justify-end text-xl text-gray-700 py-3"
+        @click="closePanel"
+      >
+        [ close x ]
+      </button>
       <h3 class="text-2xl pb-2 text-center">
         Garden City is available in all the follwoing book stores
       </h3>
@@ -133,3 +139,12 @@
     </div>
   </div>
 </template>
+<script>
+export default {
+  methods: {
+    closePanel() {
+      this.$emit('closePanel', {})
+    },
+  },
+}
+</script>

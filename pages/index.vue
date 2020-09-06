@@ -44,7 +44,7 @@
                 Place Order
               </button> -->
               <button
-                class="z-10 p-3 lg:p-4 bg-blue-700 hover:bg-blue-500 rounded-md text-white text-xl font-bold uppercase shadow-xl"
+                class="z-10 p-3 focus:outline-none lg:p-4 bg-blue-700 hover:bg-blue-500 rounded-md text-white text-xl font-bold uppercase shadow-xl"
                 @click="showPanel"
               >
                 Buy from book stores
@@ -232,7 +232,9 @@ export default {
       })
     },
     hidePanel() {
-      this.panelObject.hide()
+      this.panelObject.promise.then((result) => {
+        // result is the value passed from your component calling this.$emit('close-panel', //some value);
+      })
     },
   },
   head: {

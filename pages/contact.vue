@@ -3,15 +3,23 @@
     <section class="h-64 p-16 book-cover">
       <h1 class="text-4xl text-center text-white">Contact Me</h1>
       <p class="text-white text-center text-xl mx-auto w-full lg:w-1/2">
-        Reach out to my social media handles with issues of the website,
-        ordering a copy or finding the nearest book store
+        Reach out to me via my social media handles.
       </p>
     </section>
     <div class="p-3 lg:p-16 bg-white w-full">
       <h3 class="text-3xl text-center">Contact Details</h3>
-      <div class="text-center mb-6">
-        Please send a mail to <b>author@nellysarbooks.com</b> if you want to
-        reach me on email.
+      <div
+        class="mb-2 flex items-center justify-between w-full lg:w-1/2 mx-auto bg-gray-100 p-5"
+      >
+        <div class="text-xl font-medium">INSTAGRAM</div>
+        <a
+          class="p-3 bg-red-600 cursor-pointer text-white uppercase text-sm font-bold rounded-md"
+          href="mailto: nellysarpong37@gmail.com"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          Reach Out
+        </a>
       </div>
       <div
         class="mb-2 flex items-center justify-between w-full lg:w-1/2 mx-auto bg-gray-100 p-5"
