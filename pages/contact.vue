@@ -11,7 +11,7 @@
       <div
         class="mb-2 flex items-center justify-between w-full lg:w-1/2 mx-auto bg-gray-100 p-5"
       >
-        <div class="text-xl font-medium">INSTAGRAM</div>
+        <div class="text-xl font-medium">MAIL</div>
         <a
           class="p-3 bg-red-600 cursor-pointer text-white uppercase text-sm font-bold rounded-md"
           href="mailto: nellysarpong37@gmail.com"
