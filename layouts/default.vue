@@ -52,9 +52,12 @@
           >
             <div class="flex-shrink-0">
               <!-- Insert logo here -->
-              <h1 class="text-gray-800 text-lg lg:text-xl font-semibold">
+              <nuxt-link
+                to="/"
+                class="text-gray-800 text-lg lg:text-xl font-semibold"
+              >
                 NELLYSAR <span class="text-green-600">BOOKS</span>
-              </h1>
+              </nuxt-link>
             </div>
           </div>
           <div class="hidden sm:block">
@@ -122,13 +125,13 @@
               </a>
               <a
                 href="#author"
-                class="ml-4 px-3 py-2 font-medium leading-5 hover:text-gray-600"
+                class="ml-4 px-3 py-2 cursor-pointer font-medium leading-5 hover:text-gray-600"
                 >Author</a
               >
-              <a
-                href="#"
-                class="ml-4 px-3 py-2 font-medium leading-5 hover:text-gray-600"
-                >Contact Us</a
+              <nuxt-link
+                to="contact"
+                class="ml-4 px-3 py-2 cursor-pointer font-medium leading-5 hover:text-gray-600"
+                >Contact Us</nuxt-link
               >
             </div>
           </div>
@@ -166,10 +169,10 @@
             class="mt-1 cursor-pointer block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-white hover:text-gray-500 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
             >Author</a
           >
-          <a
-            href="#"
+          <nuxt-link
+            to="contact"
             class="mt-1 cursor-pointer block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-white hover:text-gray-500 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
-            >Contact Us</a
+            >Contact Us</nuxt-link
           >
         </div>
       </div>
