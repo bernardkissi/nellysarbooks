@@ -64,5 +64,16 @@
   </div>
 </template>
 <script>
-export default {}
+export default {
+  head: {
+    title: 'Contact Us - Nellysarbooks ',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Nellysarbooks contact page',
+      },
+    ],
+  },
+}
 </script>
