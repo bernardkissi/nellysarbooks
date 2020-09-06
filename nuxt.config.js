@@ -70,8 +70,52 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa'],
+  modules: [
+    '@nuxtjs/pwa',
+    [
+      'nuxt-cookie-control',
+      {
+        barPosition: 'bottom-right',
+        blockIframe: true,
+        colors: {
+          barTextColor: '#fff',
+          barBackground: '#12957b',
+          barButtonColor: '#fff',
+          barButtonBackground: '#206569',
+          barButtonHoverColor: '#fff',
+          barButtonHoverBackground: '#2e495e',
+          modalButtonBackground: '#206569',
+          modalButtonHoverColor: '#fff',
+          controlButtonBackground: '#12957b',
+          controlButtonHoverBackground: '#2e495e',
+          controlButtonIconHoverColor: '#fff',
+          controlButtonIconColor: '#fff',
+          modalButtonHoverBackground: '#2e495e',
+          checkboxActiveBackground: '#2e495e',
+          checkboxInactiveBackground: '#ede1e1',
+          checkboxActiveCircleBackground: '#00c58e',
+          checkboxInactiveCircleBackground: '#f44336',
+          checkboxDisabledBackground: '#ddd',
+          checkboxDisabledCircleBackground: '#fff',
+        },
+      },
+    ],
+  ],
 
+  cookies: {
+    necessary: [
+      {
+        name: {
+          en: 'Default cookies',
+        },
+
+        description: {
+          en: 'used for cookie control',
+        },
+        cookies: ['cookie_control_consent', 'cookie_control_enabled_cookies'],
+      },
+    ],
+  },
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/

@@ -175,6 +175,7 @@
       </div>
     </nav>
     <Nuxt />
+    <CookieControl />
     <slideout-panel></slideout-panel>
   </div>
 </template>

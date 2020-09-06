@@ -224,7 +224,6 @@ export default {
   data: () => ({
     panelObject: null,
   }),
-
   methods: {
     showPanel() {
       this.panelObject = this.$showPanel({
