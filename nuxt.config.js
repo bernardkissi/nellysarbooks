@@ -33,7 +33,7 @@ export default {
       {
         name: 'keywords',
         content:
-          'kids book, kids stories, story book for kids, kids books for climate change',
+          'kids book, kids stories, story book for kids, kids books for climate change, nellysarbooks, nellysar',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
