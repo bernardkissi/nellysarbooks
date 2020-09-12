@@ -34,6 +34,7 @@
           </span>
         </div>
       </div>
+      <h3 class="text-3xl">Ghana</h3>
       <div
         class="flex items-center justify-between p-3 rounded-md bg-white border-b border-gray-300 my-3"
       >
@@ -80,6 +81,66 @@
       >
         <div class="flex flex-col text-2xl capitalize">
           <span class="text-2xl capitalize text-gray-800 font-medium">
+            Vidya Bookstore</span
+          >
+          <span class="text-sm"> 18TH Lane Oxford Street Osu re. Accra</span>
+        </div>
+        <a
+          class="bg-blue-600 text-white rounded-md p-2 font-bold text-xs lg:text-sm uppercase"
+          href="https://www.google.com/"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          Visit Store</a
+        >
+      </div>
+      <div
+        class="flex items-center justify-between p-3 rounded-md bg-white border-b border-gray-300 my-1"
+      >
+        <div class="flex flex-col text-2xl capitalize">
+          <span class="text-2xl capitalize text-gray-800 font-medium">
+            Vidya Bookstore</span
+          >
+          <span class="text-sm">
+            Ndabaningi Sithole next to Cafe Mondo. Peter Ala Adjetey Avenue,
+            Accra.</span
+          >
+        </div>
+        <a
+          class="bg-blue-600 text-white rounded-md p-2 font-bold text-xs lg:text-sm uppercase"
+          href="https://www.google.com/"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          Visit Store</a
+        >
+      </div>
+      <div
+        class="flex items-center justify-between p-3 mb-12 rounded-md bg-white border-b border-gray-300 my-1"
+      >
+        <div class="flex flex-col text-2xl capitalize">
+          <span class="text-2xl capitalize text-gray-800 font-medium">
+            Baatsona Total Service Station</span
+          >
+          <span class="text-sm">
+            150m away from Danpong Hospital. Spintex Rd. Accra.
+          </span>
+        </div>
+        <a
+          class="bg-blue-600 text-white rounded-md p-2 font-bold text-xs lg:text-sm uppercase"
+          href="https://www.google.com/"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          Visit Store</a
+        >
+      </div>
+      <h3 class="text-3xl">Germany</h3>
+      <div
+        class="flex items-center justify-between p-3 rounded-md bg-white border-b border-gray-300 my-1"
+      >
+        <div class="flex flex-col text-2xl capitalize">
+          <span class="text-2xl capitalize text-gray-800 font-medium">
             Interkontinental Buchhandlung</span
           >
           <span class="text-sm"> Sonntagstr. 26 10245 Berlin</span>
@@ -107,7 +168,7 @@
           <span class="text-sm"> Germany</span>
         </div>
         <a
-          class="bg-blue-600 text-white rounded-md p-2 font-bold text-xs lg:text-sm uppercase"
+          class="bg-blue-600 text-white rounded-md p-2 mb-24 font-bold text-xs lg:text-sm uppercase"
           href="https://www.buecherbogen.com/"
           rel="noreferrer noopener"
           target="_blank"
@@ -116,7 +177,7 @@
         >
       </div>
       <div
-        class="flex items-center justify-between p-3 mb-24 rounded-md bg-white border-b border-gray-300 my-1"
+        class="flex items-center justify-between p-3 rounded-md bg-white border-b border-gray-300 my-1"
       >
         <div class="flex flex-col text-2xl capitalize">
           <span class="text-2xl capitalize text-gray-800 font-medium">
