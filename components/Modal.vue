@@ -81,13 +81,15 @@
       >
         <div class="flex flex-col text-2xl capitalize">
           <span class="text-2xl capitalize text-gray-800 font-medium">
-            Vidya Bookstore</span
+            Vidya Bookstore Osu</span
           >
           <span class="text-sm"> 18TH Lane Oxford Street Osu re. Accra</span>
+          <span class="text-sm">+233302762704</span>
+          <span class="text-sm"> Ghana</span>
         </div>
         <a
           class="bg-blue-600 text-white rounded-md p-2 font-bold text-xs lg:text-sm uppercase"
-          href="https://www.google.com/"
+          href="https://vidyabookstore.com/"
           rel="noreferrer noopener"
           target="_blank"
         >
@@ -105,10 +107,12 @@
             Ndabaningi Sithole next to Cafe Mondo. Peter Ala Adjetey Avenue,
             Accra.</span
           >
+          <span class="text-sm">+233302762704</span>
+          <span class="text-sm"> Ghana</span>
         </div>
         <a
           class="bg-blue-600 text-white rounded-md p-2 font-bold text-xs lg:text-sm uppercase"
-          href="https://www.google.com/"
+          href="https://vidyabookstore.com/"
           rel="noreferrer noopener"
           target="_blank"
         >
@@ -125,6 +129,8 @@
           <span class="text-sm">
             150m away from Danpong Hospital. Spintex Rd. Accra.
           </span>
+          <span class="text-sm">+233209993067</span>
+          <span class="text-sm"> Ghana</span>
         </div>
         <a
           class="bg-blue-600 text-white rounded-md p-2 font-bold text-xs lg:text-sm uppercase"
